@@ -3,7 +3,7 @@ import Wrapper from "./Wrapper";
 
 function Navbar() {
   return (
-    <div className="h-screen relative">
+    <div className="h-screen relative overflow-hidden">
       <video
         loop
         autoPlay
@@ -48,10 +48,7 @@ function Navbar() {
             </div>
           </div>
           <div className="text-2xl">
-            <a
-              className="px-8 text-white font-semibold py-4 bg-pink-500"
-              href=""
-            >
+            <a className="px-8 text-white font-semibold py-4 bg-pink" href="">
               Donate
             </a>
           </div>
@@ -62,23 +59,23 @@ function Navbar() {
             <span className="text-brightYellow">DAY</span>
           </h4>
         </div>
-        <div className="max-w-[1080px] mx-auto w-full gap-12 mt-8 grid grid-cols-3 -mb-12">
+        <div className="max-w-[1080px] mx-auto w-[330px] lg:w-full xl:gap-12 mt-8 lg:grid lg:gap-6 grid-cols-3 lg:-mb-12 lg:px-28 flex flex-col ">
           <a
-            className="px-14 text-white font-semibold text-center py-8 text-2xl bg-brightYellow "
+            className=" xl:px-14 text-white font-semibold text-center py-8 text-2xl bg-brightYellow "
             href=""
           >
             Ways to give
           </a>
 
           <a
-            className="px-14 text-white font-semibold  text-center py-8 text-2xl bg-darkBlue "
+            className=" xl:px-14 text-white font-semibold  text-center py-8 text-2xl bg-darkBlue"
             href=""
           >
             Our programme
           </a>
 
           <a
-            className="px-14 text-white font-semibold  text-center py-8 text-2xl bg-pink "
+            className=" xl:px-14 text-white font-semibold  text-center py-8 text-2xl bg-pink"
             href=""
           >
             Stories
